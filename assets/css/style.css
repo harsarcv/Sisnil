@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eef5f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background: #0b5e42;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white !important;
+}
+
+/* Buttons */
+.btn-success, .btn-primary {
+    background: #0b5e42;
+    border: none;
+}
+
+.btn-success:hover, .btn-primary:hover {
+    background: #0a4a35;
+}
+
+.btn-danger {
+    background: #dc3545;
+}
+
+.btn-warning {
+    background: #ffc107;
+    color: #333;
+}
+
+/* Cards */
+.card {
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: white;
+    border-bottom: 2px solid #0b5e42;
+    font-weight: bold;
+    border-radius: 12px 12px 0 0 !important;
+}
+
+/* Tables */
+.table thead th {
+    background: #0b5e42;
+    color: white;
+    padding: 12px;
+}
+
+.table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* Welcome Banner */
+.welcome-banner {
+    background: #0b5e42;
+    color: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+/* Stat Cards */
+.stat-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.stat-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.stat-icon {
+    font-size: 35px;
+    color: #0b5e42;
+    margin-bottom: 10px;
+}
+
+/* Login Page */
+.login-card {
+    max-width: 400px;
+    margin: 100px auto;
+    border-radius: 15px;
+    background: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    padding: 30px;
+}
+
+.btn-login {
+    background: #0b5e42;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.btn-login:hover {
+    background: #0a4a35;
+    color: white;
+}
+
+.logo-icon {
+    font-size: 55px;
+    color: #0b5e42;
+    margin-bottom: 15px;
+}
+
+/* Form styling */
+.form-control:focus {
+    border-color: #0b5e42;
+    box-shadow: 0 0 0 0.2rem rgba(11, 94, 66, 0.25);
+}
+
+/* Alert badges */
+.badge-lulus {
+    background: #28a745;
+    padding: 5px 12px;
+    border-radius: 20px;
+    color: white;
+}
+
+.badge-tidak {
+    background: #dc3545;
+    padding: 5px 12px;
+    border-radius: 20px;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #666;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .stat-card {
+        margin-bottom: 15px;
+    }
+    
+    .table {
+        font-size: 14px;
+    }
+    
+    .btn-sm {
+        margin: 2px;
+    }
+}
